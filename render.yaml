@@ -1,0 +1,10 @@
+services:
+  - type: static_site
+    name: react-quiz-app # You can change this name
+    env: node # Specify the Node environment
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
