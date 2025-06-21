@@ -1,0 +1,28 @@
+h1 {
+    font-size: 120px;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s ease infinite;
+    margin-top: 60px;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  body{
+    border: 1.5px solid white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 8px;
+  box-shadow: 0 0 10px whitesmoke
+
+  }

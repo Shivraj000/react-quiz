@@ -1,0 +1,14 @@
+.answersheet {
+    max-height: 80vh; /* Limits the container's height to 80% of the viewport */
+    overflow-y: auto; /* Enables vertical scrolling when content overflows */
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for a subtle effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+    backdrop-filter: blur(5px); /* Applies a slight blur to the background */
+    -webkit-backdrop-filter: blur(5px); /* Ensures compatibility with Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Adds a light border for definition */
+  }
+  
